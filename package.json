@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-pernexus-draw",
+  "version": "1.0.0",
+  "description": "Cordova Pernexus Draw Plugin",
+  "cordova": {
+    "id": "cordova-plugin-pernexus-draw",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "sketch",
+    "drawing",
+    "signature",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "draw"
+  ],
+  "devDependencies": {
+    "eslint": "^1.1",
+    "eslint-config-semistandard": "^5.0",
+    "eslint-config-standard": "^4.0"
+  },
+  "author": "Morten Zobbe",
+  "license": "Apache 2.0"
+}

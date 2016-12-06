@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="cordova-plugin-pernexus-draw"
+      version="0.1.0">
+
+    <name>Pernexus Drawing</name>
+    <description>Cordova Pernexus Draw Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,sketch,signature,draw</keywords>
+
+    <js-module src="www/draw.js" name="pxDraw">
+        <clobbers target="navigator.pxDraw" />
+    </js-module>
+
+    <!-- iOS -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PXDrawPlugin">
+                <param name="ios-package" value="PXDrawPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/PXDrawPlugin.h" />
+        <source-file src="src/ios/PXDrawPlugin.m" />
+        <header-file src="src/ios/TouchDraw/PXTouchDrawView.h" />
+        <source-file src="src/ios/TouchDraw/PXTouchDrawView.m" />
+        <header-file src="src/ios/TouchDraw/PXTouchDrawViewController.h" />
+        <source-file src="src/ios/TouchDraw/PXTouchDrawViewController.m" />
+    </platform>
+
+</plugin>
