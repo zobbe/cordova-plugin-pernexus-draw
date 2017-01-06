@@ -113,7 +113,7 @@
         NSString *encType;
         if (self.encodingType == EncodingTypeJPEG) {
             drawingData = UIImageJPEGRepresentation(drawing, 1.0f);
-            encType = @"jpeg";
+            encType = @"jpg";
         } else if (self.encodingType == EncodingTypePNG){
             drawingData = UIImagePNGRepresentation(drawing);
             encType = @"png";
