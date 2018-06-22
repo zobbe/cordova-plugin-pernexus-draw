@@ -154,7 +154,7 @@
 
 - (void) cancelDrawing
 {
-    [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_OK
+    [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT
                                                              messageAsString:@""]
                                 callbackId:self.callbackId];
 
