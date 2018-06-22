@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-pernexus-draw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova Pernexus Draw Plugin",
   "cordova": {
     "id": "cordova-plugin-pernexus-draw",
