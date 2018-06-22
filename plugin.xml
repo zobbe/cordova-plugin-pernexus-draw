@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="cordova-plugin-pernexus-draw"
-      version="0.1.0">
+      version="0.1.1">
 
     <name>Pernexus Drawing</name>
     <description>Cordova Pernexus Draw Plugin</description>
